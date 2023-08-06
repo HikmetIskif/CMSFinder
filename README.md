@@ -13,9 +13,13 @@ CMSfinder is a Python tool that helps you detect Content Management Systems (CMS
 
 The default usage is:
 >**python3 cmsfinder.py -d (path to domains file)**
+
 This will print the results for both domains using and not using CMS.
+
 To print the results that are using CMS only, use silent mode by adding -s or --silent parameter:
+
 >**python3 cmsfinder.py -d (path to domains file) -s**
+
 >**python3 cmsfinder.py -d (path to domains file) --silent**
 
 - Some websites may return a 200 response for all directories. CMSfinder includes a trial request to check for such cases. However, false negatives are still possible.
