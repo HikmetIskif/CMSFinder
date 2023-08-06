@@ -2,7 +2,7 @@
 
 CMSfinder - Detect Content Management Systems (CMS) and more!
 
-CMSfinder is a Python tool that helps you detect Content Management Systems (CMS) and other known systems like Nginx and Jenkins. It takes a list of domains from a file as input and checks for the presence of known directories (e.g., /wp-content, /umbraco, /phpmyadmin) that indicate the use of specific CMS platforms. If a CMS is detected, the tool will display the name of the CMS used for each domain in the input file.
+CMSfinder is a Python tool that helps you detect Content Management Systems (CMS) and other known systems like Nginx and Jenkins. It takes a list of domains from a file as input and checks for the presence of known directories (/wp-content, /umbraco, /phpmyadmin etc.) that indicate the use of specific CMS platforms. If a CMS is detected, the tool will display the name of the CMS used for each domain in the input file.
 
 **Installation**
 1. git clone https://github.com/HikmetIskif/CMSFinder
