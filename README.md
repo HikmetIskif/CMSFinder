@@ -10,6 +10,7 @@ CMSfinder is a Python tool that helps you detect Content Management Systems (CMS
 3. pip install -r requirements.txt
 
 **Usage**
+
 The default usage is:
 >**python3 cmsfinder.py -d (path to domains file)**
 This will print the results for both domains using and not using CMS.
